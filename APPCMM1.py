@@ -14,9 +14,9 @@ model = joblib.load('stacking_classifier_model.pkl')
 X_test = pd.read_csv('X_test.csv')
 
 Duration_of_diabetes = {
-    1: '≤1year',
-    2: '1-5years',
-    3: '＞5years'
+    0: '≤1year',
+    1: '1-5years',
+    2: '＞5years'
 }
 
 
